@@ -6,10 +6,17 @@
 	<!-- <bean/> definitions here -->
 
 	<bean name="emp" class="com.model.Employee">
-		<property name="name" value="Himanshu" />
 		<property name="gender" value="Male" />
 		<property name="id" value="1" />
 		<property name="salary" value="3434209" />
+		<property name="name" value="Himanshu" />
+	</bean>
+
+	<bean id="emp2" class="com.model.Employee">
+		<constructor-arg name="name" value="Mukul" />
+		<constructor-arg name="gender" value="male" />
+		<constructor-arg name="id" type="int" value="2" />
+		<constructor-arg name="salary" value="87654" />
 	</bean>
 
 

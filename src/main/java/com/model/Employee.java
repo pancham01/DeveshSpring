@@ -14,6 +14,7 @@ public class Employee {
 		this.gender = gender;
 		this.id = id;
 		this.salary = salary;
+		System.out.println("Employee.Employee()");
 	}
 
 	public String getName() {
@@ -30,6 +31,7 @@ public class Employee {
 	}
 
 	public void setGender(String gender) {
+		System.out.println("Employee.setGender()");
 		this.gender = gender;
 	}
 
