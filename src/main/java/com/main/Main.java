@@ -10,7 +10,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		ApplicationContext ioc = new ClassPathXmlApplicationContext("applicationcontext.xml");
-		Employee e = (Employee)ioc.getBean("emp");
+		Employee e = (Employee)ioc.getBean("ss");
 		Employee e2 = (Employee)ioc.getBean("emp2");
 		
 		System.out.println(e);

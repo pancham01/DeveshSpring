@@ -5,18 +5,27 @@
 
 	<!-- <bean/> definitions here -->
 
-	<bean name="emp" class="com.model.Employee">
+	<bean name="add" class="com.model.Address">
+		<property name="city" value="Noida" />
+		<property name="state" value="UP" />
+		<property name="hNo" value="420" />
+	</bean>
+
+
+	<bean name="emp,ee,ss" class="com.model.Employee">
 		<property name="gender" value="Male" />
 		<property name="id" value="1" />
 		<property name="salary" value="3434209" />
 		<property name="name" value="Himanshu" />
+		<property name="address" ref="add" />
 	</bean>
 
 	<bean id="emp2" class="com.model.Employee">
 		<constructor-arg name="name" value="Mukul" />
 		<constructor-arg name="gender" value="male" />
 		<constructor-arg name="id" type="int" value="2" />
-		<constructor-arg name="salary" value="87654" />
+		<constructor-arg name="salary" value="76532" />
+		<constructor-arg name="address" ref="add" />
 	</bean>
 
 
