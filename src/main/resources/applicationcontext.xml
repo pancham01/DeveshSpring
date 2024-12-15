@@ -10,14 +10,45 @@
 		<property name="id" value="1" />
 		<property name="salary" value="3434209" />
 		<property name="name" value="Himanshu" />
+		<property name="list">
+			<list>
+				<value>100</value>
+				<value>200</value>
+				<value>300</value>
+				<value>400</value>
+				<value>500</value>
+				<value>500</value>
+				<value>100</value>
+			</list>
+		</property>
+		<property name="set">
+			<set>
+				<value>11</value>
+				<value>22</value>
+				<value>33</value>
+				<value>144</value>
+				<value>11</value>
+				<value>14</value>
+				<value>11</value>
+			</set>
+		</property>
+		<property name="map">
+			<map>
+				<entry key="1" value="ONE" />
+				<entry key="2" value="TWO" />
+				<entry key="3" value="THREE" />
+				<entry key="4" value="FOUR" />
+				<entry key="1" value="one" />
+			</map>
+		</property>
 	</bean>
 
-	<bean id="emp2" class="com.model.Employee">
+	<!-- <bean id="emp2" class="com.model.Employee">
 		<constructor-arg name="name" value="Mukul" />
 		<constructor-arg name="gender" value="male" />
 		<constructor-arg name="id" type="int" value="2" />
 		<constructor-arg name="salary" value="87654" />
-	</bean>
+	</bean> -->
 
 
 </beans>
