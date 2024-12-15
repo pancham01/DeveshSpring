@@ -15,6 +15,7 @@ public class Main {
 		
 		System.out.println(e);
 		e2.getAddress().setCity("GZB");
+		e2.setName("Arjun");
 		System.out.println(e2);
 	}
 
