@@ -25,7 +25,7 @@
 		<constructor-arg name="gender" value="male" />
 		<constructor-arg name="id" type="int" value="2" />
 		<constructor-arg name="salary" value="76532" />
-		<constructor-arg name="address" ref="add" />
+		<constructor-arg  ref="add" />
 	</bean>
 
 

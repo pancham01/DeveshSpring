@@ -14,7 +14,7 @@ public class Main {
 		Employee e2 = (Employee)ioc.getBean("emp2");
 		
 		System.out.println(e);
-		
+		e2.getAddress().setCity("GZB");
 		System.out.println(e2);
 	}
 
